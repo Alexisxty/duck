@@ -72,8 +72,8 @@ h5py==3.7.0
   训练自己的数据集时，可以自己建立一个cls_classes.txt，里面写自己所需要区分的类别。   
   model_data/cls_classes.txt文件内容为：      
 ```python
-cat
-dog
+male
+female
 ...
 ```
 修改voc_annotation.py中的classes_path，使其对应cls_classes.txt，并运行voc_annotation.py。  
