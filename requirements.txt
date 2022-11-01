@@ -1,0 +1,17 @@
+# Usage: pip install -r requirements.txt
+torch==1.7.1
+numpy==1.21.5
+matplotlib==3.5.3
+opencv_python==4.6.0.66
+torchvision==0.8.2
+tqdm==4.64.0
+pillow=9.2.0
+h5py==3.7.0
+
+# Extras --------------------------------------
+#ipython  # interactive notebook
+#psutil  # system utilization
+#thop  # FLOPs computation
+# albumentations>=1.0.3
+# pycocotools>=2.0  # COCO mAP
+# roboflow
